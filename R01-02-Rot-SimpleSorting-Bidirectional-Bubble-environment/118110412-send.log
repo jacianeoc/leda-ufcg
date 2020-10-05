@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-23T21:47:28.944-0300</date>
+  <logger>JACIANE DE OLIVEIRA CRUZ</logger>
+  <level>FINE</level>
+  <message>File 118110412-JACIANE DE OLIVEIRA CRUZ.zip was received. It was sent by JACIANE DE OLIVEIRA CRUZ from IP 192.168.0.103 at 23-09-2020 21*47*28</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-25T17:14:42.193-0300</date>
+  <logger>JACIANE DE OLIVEIRA CRUZ</logger>
+  <level>FINE</level>
+  <message>File 118110412-JACIANE DE OLIVEIRA CRUZ.zip was received. It was sent by JACIANE DE OLIVEIRA CRUZ from IP 192.168.0.103 at 25-09-2020 17*14*42</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-25T17:41:35.021-0300</date>
+  <logger>JACIANE DE OLIVEIRA CRUZ</logger>
+  <level>FINE</level>
+  <message>File 118110412-JACIANE DE OLIVEIRA CRUZ.zip was received. It was sent by JACIANE DE OLIVEIRA CRUZ from IP 192.168.0.103 at 25-09-2020 17*41*35</message>
+</record>

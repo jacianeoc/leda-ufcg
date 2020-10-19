@@ -47,3 +47,33 @@
   <level>FINE</level>
   <message>File 118110412-JACIANE DE OLIVEIRA CRUZ.zip was received. It was sent by JACIANE DE OLIVEIRA CRUZ from IP 192.168.0.103 at 19-10-2020 00*28*21</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-19T01:07:20.153-0300</date>
+  <logger>JACIANE DE OLIVEIRA CRUZ</logger>
+  <level>FINE</level>
+  <message>File 118110412-JACIANE DE OLIVEIRA CRUZ.zip was received. It was sent by JACIANE DE OLIVEIRA CRUZ from IP 192.168.0.103 at 19-10-2020 01*07*20</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-19T02:05:38.533-0300</date>
+  <logger>JACIANE DE OLIVEIRA CRUZ</logger>
+  <level>FINE</level>
+  <message>File 118110412-JACIANE DE OLIVEIRA CRUZ.zip was received. It was sent by JACIANE DE OLIVEIRA CRUZ from IP 192.168.0.103 at 19-10-2020 02*05*38</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-19T02:10:38.738-0300</date>
+  <logger>JACIANE DE OLIVEIRA CRUZ</logger>
+  <level>FINE</level>
+  <message>File 118110412-JACIANE DE OLIVEIRA CRUZ.zip was received. It was sent by JACIANE DE OLIVEIRA CRUZ from IP 192.168.0.103 at 19-10-2020 02*10*38</message>
+</record>

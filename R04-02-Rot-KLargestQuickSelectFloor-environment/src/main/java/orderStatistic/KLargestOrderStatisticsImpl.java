@@ -27,14 +27,23 @@ public class KLargestOrderStatisticsImpl<T extends Comparable<T>> implements KLa
 	@Override
 	public T[] getKLargest(T[] array, int k) {
 		if(validation(array, k)){
-			int left = 0;
-			int right = array.length-1;
-			orderStatistics(array, k);
+			//so essa aqui
+			
+			int n = array.length-1;
+			for (int i = 0; i <= n; i++) {
+				if(array[i].compareTo(orderStatistics(array, i)) > 0){
+					Util.swap(array, i, getIndex(array, orderStatistics(array, i)));
+				}
+					
+			}
+			
 			return array;
 		} else {
 			return null;
 		}
 	}
+
+
 
 	/**
 	 * Metodo que retorna a k-esima estatistica de ordem de um array, usando
@@ -50,16 +59,37 @@ public class KLargestOrderStatisticsImpl<T extends Comparable<T>> implements KLa
 	public T orderStatistics(T[] array, int k){
 		
 		if(validation(array, k)) {
-			
+			sort(array,0,array.length-1);
+			return array[k-1];
 		}else {
 			return null;
 		}
 			
 	}
 	//usando como base o selection sort :) 
-	private void sort(T[]arr) {
+	private void sort(T[]array, int leftIndex, int rightIndex) {
+		for(int i=leftIndex; i <= rightIndex; i++){
+			int smaller = i;
+			for(int j=smaller+1; j<=rightIndex; j++){
+				if(array[smaller].compareTo(array[j]) > 0){
+					smaller = j;
+				}
+			}
+			if(smaller != i){
+				Util.swap(array, i, smaller);
+			}
+		}
 		
 	}
+	private int getIndex(T[]arr, T element) {
+		int index = 0;
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i].compareTo(element)== 0)
+				index = i;
+		}
+		return index;
+	}
+
 	
 	private boolean validation(T[] array, Integer k) {
 

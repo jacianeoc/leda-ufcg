@@ -1,7 +1,6 @@
 util/Util.class
-orderStatistic/main.class
-orderStatistic/KLargest.class
 problems/Floor.class
 orderStatistic/QuickSelect.class
+orderStatistic/KLargest.class
 orderStatistic/KLargestOrderStatisticsImpl.class
 problems/FloorBinarySearchImpl.class
